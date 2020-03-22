@@ -62,18 +62,34 @@ h2 {
     margin-right: -5px;
     width: 600px;
 }
+.button_1{
+    background-color: rgb(87,87,87);
+    box-shadow:  0 0  5px rgb(0,0,0);
+    cursor: pointer;
+    border-radius: 5px;
+    color: rgb(255,255,255);
+    width: 150;
+    height: 30;
+    border:  rgb(0,0,0);
+    border-color: #008a77;
+    text-align: center;
+    margin: 0 auto;
+    padding-right:30px;
+    }
 @media(max-width:768px){
     li{
         display:flex;
         flex-direction:column;
         align-items:center;
-        padding-left:240px;
+        justify-content:center;
+        padding-left:20px;
     }
     .block{
         display:flex;
         flex-direction:column;
         align-items:center;
-        padding-left:260px;
+        justify-content:center;
+        padding-left:200px;
     }
     .button{
      align-items:center;
